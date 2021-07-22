@@ -9,8 +9,9 @@ import UIKit
 
 class ViewController4: UIViewController {
     
-    @IBOutlet weak var imageThree: UIImageView!
+
     
+    @IBOutlet weak var imageThree: UIImageView!
     
     @IBOutlet weak var imageTwo: UIImageView!
     
@@ -19,13 +20,13 @@ class ViewController4: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-      imageThree.layer.cornerRadius = 10.0
+      imageThree.layer.cornerRadius = 30.0
         imageThree.layer.masksToBounds = true
         
-        imageTwo.layer.cornerRadius = 10.0
+        imageTwo.layer.cornerRadius = 30.0
           imageTwo.layer.masksToBounds = true
         
-        imageOne.layer.cornerRadius = 10.0
+        imageOne.layer.cornerRadius = 30.0
           imageOne.layer.masksToBounds = true
         
         // Do any additional setup after loading the view.

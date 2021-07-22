@@ -17,10 +17,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        imageOne.layer.cornerRadius = 10.0
+        imageOne.layer.cornerRadius = 100.0
           imageOne.layer.masksToBounds = true
         
-        imageTwo.layer.cornerRadius = 10.0
+        imageTwo.layer.cornerRadius = 100.0
           imageTwo.layer.masksToBounds = true
     
     }
